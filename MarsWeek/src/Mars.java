@@ -1,5 +1,5 @@
 public class Mars {
-    public static void main(String[] args){
+    public static void main(String[] args) throws InterruptedException{
         String ColonyName = "SpaceX";
         int ShipPopulation = 300;
         double ShipFood = 4000.00;
@@ -47,11 +47,19 @@ public class Mars {
             }else{
                 System.out.println("Calculating");
             }
+
             Thread.sleep(250);
         }
+//        try{
+//            Thread.sleep(250);
+//        }catch (InterruptedException e){
+//
+//
+//        }
         System.out.println("Landed");
+        return false;
     }
-    return false;
+
 
 
 }
