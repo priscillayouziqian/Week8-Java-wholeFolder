@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class GuessingGame {
-    public static void main(String[] args){
+    public static void main(String[] args) throws InterruptedException{
         Scanner input = new Scanner(System.in);
         boolean correctGuess = false;
         int guess = 0;
@@ -70,8 +70,11 @@ public class GuessingGame {
                 //Set correctGuess equal to true
                 correctGuess = true;
             }
+
+
         }
-    }
+        new MarsExpedition(); //creating an instance of the MarsExpedition class
+        new FindingsLists();
     }
 
 }
