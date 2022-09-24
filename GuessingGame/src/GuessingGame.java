@@ -75,6 +75,7 @@ public class GuessingGame {
         }
         new MarsExpedition(); //creating an instance of the MarsExpedition class
         new FindingsLists();
+
     }
 
 }
