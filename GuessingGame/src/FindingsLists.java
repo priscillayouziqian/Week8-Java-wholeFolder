@@ -34,5 +34,15 @@ public class FindingsLists {
             System.out.println("Fossil: " + fossilChoice + "\nDescription: " + fossilDirectory.get(fossilChoice));
 
         }
+
+        Thread.sleep(500);
+        HashSet<String> suppliesBrought = new HashSet<>();
+        HashSet<String> suppliesUsed = new HashSet<>();
+        suppliesBrought.add("Food");
+        suppliesBrought.add("Water");
+        suppliesBrought.add("Medicine");
+        suppliesUsed.add("Food");
+        suppliesUsed.add("Water");
+        System.out.println("Medicine");
     }
 }
